@@ -53,13 +53,15 @@ The model was trained and evaluated on historical ICU patient data to identify s
 
 This project is for academic and research purposes only and is not intended for clinical decision-making.
 
-## Results
+## Model Performance
 
-* Validation AUC: 0.8953
-* Test AUC: 0.8911
-* Optimized Classification Threshold: 0.2956
-* Features Used: 56
-* Model: XGBoost Classifier
+* ROC-AUC: 0.8911
+* Accuracy: 89.47%
+* Recall (Sepsis Detection): 71.82%
+* Precision: 38.11%
+* F1 Score: 49.80%
+* Threshold Used: 0.2956
 
-The model demonstrated strong predictive capability for early sepsis risk detection on held-out test data.
+The model was tuned to prioritize recall for early sepsis detection, which is important in clinical screening scenarios.
+
 
