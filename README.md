@@ -64,4 +64,22 @@ This project is for academic and research purposes only and is not intended for 
 
 The model was tuned to prioritize recall for early sepsis detection, which is important in clinical screening scenarios.
 
+## Images
+
+## ROC CURVE
+
+<img width="790" height="590" alt="ROC CURVE" src="https://github.com/user-attachments/assets/0b74e4e2-742a-46c7-9047-adea3511610d" />
+
+## Confusion Matrix
+
+<img width="666" height="590" alt="CM" src="https://github.com/user-attachments/assets/ff6a987f-3ec5-4c8a-80d3-730fcc073aff" />
+
+## Feature Importance
+
+<img width="989" height="690" alt="FI" src="https://github.com/user-attachments/assets/b75fe92f-c603-4998-b117-bfcf3a79e184" />
+
+
+
+
+
 
