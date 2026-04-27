@@ -8,6 +8,14 @@ This project uses the XGBoost algorithm to predict early sepsis risk using ICU c
 
 To build a classification model that predicts whether a patient is at risk of sepsis based on clinical features.
 
+## Dataset
+
+The model was trained and evaluated using the PhysioNet Challenge 2019 dataset, which contains ICU patient time-series clinical records for early sepsis prediction.
+
+Source:
+Reyna MA et al., PhysioNet Challenge 2019 – Early Prediction of Sepsis from Clinical Data.
+https://physionet.org/content/challenge-2019/
+
 ## Technologies Used
 
 * Python
