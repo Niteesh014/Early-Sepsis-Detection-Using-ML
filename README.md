@@ -131,9 +131,13 @@ For each vital sign, the following were extracted:
 ## SHAP Explainability
 
 SHAP (SHapley Additive exPlanations) was used to explain individual patient predictions. For medical AI, explainability is essential — clinicians need to know *why* a patient was flagged, not just that they were.
-![SHAP Summary](shap_beeswarm.png)
+<img src="shap_beeswarm.png" width="700" alt="SHAP Summary Beeswarm"/>
 
-![SHAP Waterfall](shap_waterfall.png)
+<img src="shap_waterfall.png" width="600" alt="SHAP Waterfall Highest Risk Patient"/>
+
+<img src="model_comparison.png" width="750" alt="Model Comparison"/>
+
+<img src="sepsis_model_evaluation.png" width="750" alt="Model Evaluation Plots"/>
 **Top predictors by mean |SHAP value|:**
 
 | Rank | Feature | Clinical meaning |
