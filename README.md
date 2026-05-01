@@ -135,9 +135,6 @@ SHAP (SHapley Additive exPlanations) was used to explain individual patient pred
 
 <img src="shap_waterfall.png" width="600" alt="SHAP Waterfall Highest Risk Patient"/>
 
-<img src="model_comparison.png" width="750" alt="Model Comparison"/>
-
-<img src="sepsis_model_evaluation.png" width="750" alt="Model Evaluation Plots"/>
 **Top predictors by mean |SHAP value|:**
 
 | Rank | Feature | Clinical meaning |
