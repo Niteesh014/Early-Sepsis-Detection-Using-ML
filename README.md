@@ -124,14 +124,16 @@ For each vital sign, the following were extracted:
 
 ### ROC Curve and Confusion Matrix
 
-![Model Evaluation](https://github.com/Niteesh014/Early-Sepsis-Detection-Using-ML/assets/210472384/584072227-0b74e4e2-742a-46c7-9047-adea3511610d)
+![Model Evaluation](sepsis_model_evaluation.png)
 
 ---
 
 ## SHAP Explainability
 
 SHAP (SHapley Additive exPlanations) was used to explain individual patient predictions. For medical AI, explainability is essential — clinicians need to know *why* a patient was flagged, not just that they were.
+![SHAP Summary](shap_beeswarm.png)
 
+![SHAP Waterfall](shap_waterfall.png)
 **Top predictors by mean |SHAP value|:**
 
 | Rank | Feature | Clinical meaning |
@@ -153,7 +155,7 @@ SHAP analysis revealed this patient presented with hypothermic sepsis — Temp_l
 ---
 
 ## Model Comparison
-
+![Model Comparison](model_comparison.png)
 All three models were trained on the identical split with F2-optimised thresholds.
 
 | Model | ROC-AUC | Recall | Precision |
